@@ -1,0 +1,43 @@
+{
+  "data_shape": {
+    "n_samples": 36,
+    "time_steps": 50,
+    "n_features": 11
+  },
+  "feature_names": [
+    "GFAP",
+    "UCHL1",
+    "age",
+    "education",
+    "gose",
+    "hypoglycemia",
+    "marshall_grade",
+    "pupil_reactivity",
+    "severity",
+    "sex"
+  ],
+  "feature_types": {
+    "GFAP": "continuous",
+    "UCHL1": "continuous",
+    "age": "continuous",
+    "education": "ordinal",
+    "gose": "ordinal",
+    "hypoglycemia": "binary",
+    "marshall_grade": "ordinal",
+    "pupil_reactivity": "ordinal",
+    "severity": "ordinal",
+    "sex": "binary"
+  },
+  "train_samples": 28,
+  "test_samples": 8,
+  "scaler_ranges": {
+    "GFAP": {
+      "min": 0.0,
+      "max": 14.399398834013205
+    },
+    "UCHL1": {
+      "min": 0.0,
+      "max": 11.825010595900512
+    }
+  }
+}

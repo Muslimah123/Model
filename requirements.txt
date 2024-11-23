@@ -1,0 +1,7 @@
+pyarrow
+tensorflow
+matplotlib
+seaborn
+tqdm
+scikit-learn
+numpy

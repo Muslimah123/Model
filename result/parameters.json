@@ -1,0 +1,7 @@
+{
+    "hidden_dim": 48,
+    "num_layers": 3,
+    "epochs": 1000,
+    "seq_len": 6,
+    "batch_size": 64
+}
